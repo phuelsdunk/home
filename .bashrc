@@ -138,9 +138,13 @@ ex ()
   fi
 }
 
-# bash history with multiple terminals
-export PROMPT_COMMAND='history -a'
-export HISTFILESIZE=1000000
+# Avoid duplicates
+HISTCONTROL=ignoredups:erasedups
+# When the shell exits, append to the history file instead of overwriting it
+shopt -s histappend
+
+# After each command, append to the history file and reread it
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # fuzzy bash search
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
