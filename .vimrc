@@ -9,6 +9,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'tpope/vim-fugitive'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'davidhalter/jedi-vim'
 call vundle#end()
 
 filetype plugin indent on
