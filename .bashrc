@@ -142,7 +142,7 @@ ex ()
 HISTFILESIZE=1000000
 HISTCONTROL=ignoredups:erasedups
 shopt -s histappend
-PROMPT_COMMAND="history -n; history -w; history -c; history -r; ${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'} history -a; history -c; history -r"
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
 # fuzzy bash search
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
