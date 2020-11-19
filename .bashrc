@@ -148,7 +148,6 @@ PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; h
 export PATH="/usr/lib/colorgcc/bin/:$PATH"    # As per usual colorgcc installation, leave unchanged (don't add ccache)
 export CCACHE_PATH="/usr/bin"                 # Tell ccache to only use compilers here
 
-
 # fuzzy bash search
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
