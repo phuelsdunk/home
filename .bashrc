@@ -139,6 +139,7 @@ ex ()
 }
 
 # History
+HISTSIZE=1000000
 HISTFILESIZE=1000000
 HISTCONTROL=ignoredups:erasedups
 shopt -s histappend
