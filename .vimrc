@@ -40,3 +40,6 @@ set expandtab
 
 " Warp text
 set linebreak
+
+" Allow some mouse action
+set mouse=a
