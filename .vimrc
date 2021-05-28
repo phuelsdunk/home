@@ -42,4 +42,4 @@ set expandtab
 set linebreak
 
 " Allow some mouse action
-set mouse=a
+set mouse=nvi
