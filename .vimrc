@@ -43,3 +43,6 @@ set linebreak
 
 " Allow some mouse action
 set mouse=nvi
+
+" Smaller gui font
+set guifont=Noto\ Mono\ 9
