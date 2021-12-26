@@ -23,11 +23,6 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 highlight ColorColumn ctermbg=gray
 set colorcolumn=80
 
-" Colors
-syntax enable
-set background=dark
-colorscheme solarized
-
 " Enable line numbers
 set number
 
@@ -43,6 +38,3 @@ set linebreak
 
 " Allow some mouse action
 set mouse=nvi
-
-" Smaller gui font
-set guifont=Noto\ Mono\ 9
