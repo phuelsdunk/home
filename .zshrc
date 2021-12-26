@@ -9,5 +9,3 @@ fi
 if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
   source /usr/share/zsh/manjaro-zsh-prompt
 fi
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
