@@ -38,3 +38,9 @@ set linebreak
 
 " Allow some mouse action
 set mouse=nvi
+
+" Fix colors in vim diff
+hi DiffAdd    ctermfg=LightGreen   ctermbg=DarkGreen
+hi DiffDelete ctermfg=LightRed     ctermbg=Red
+hi DiffText   ctermfg=LightMagenta ctermbg=DarkMagenta
+hi DiffChange ctermfg=None         ctermbg=None
